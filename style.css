@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7e7e7e;
+}
+
+main {
+    width: 100%;
+    max-height: 100%;
+}
+
+.headingtop {
+    margin-top: 50px;
+}
+
+nav .ntop {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+    align-items: center;
+}
+
+.ntopleft img {
+    width: 20px;
+}
+
+.ntopright {
+    display: flex;
+}
+
+.ntopright p {
+    font-size: 14px;
+}
+
+.ntopright p:nth-of-type(1),
+.ntopright p:nth-of-type(2) {
+    margin-right: 10px;
+}
+
+.nmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.navleft img {
+    width: 80px;
+}
+
+.navmid a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navright {
+    display: flex;
+}
+
+.navsearch {
+    display: flex;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-right: 30px;
+}
+
+.navsearch i {
+    font-size: 16px;
+}
+
+.navsearch input {
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    background-color: #f5f5f5;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.navright .heart .fa-heart {
+    margin-top: 7px;
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.navright img {
+    width: 24px;
+}
+
+.poster {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.mid .acgguide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mid .acgguide h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.mid .headingpara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mid button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.mid button:hover {
+    background-color: #b2b2b2;
+}
+
+.trending {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 80px;
+}
+
+.trending p {
+    font-size: 22px;
+}
+
+.treimg {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.treimg1,
+.treimg2 {
+    position: relative;
+}
+
+.treimg img {
+    width: 720px;
+}
+
+.treimginside {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+
+.treimginside p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.treimginside button {
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+
+.treimginside button:hover {
+    background-color: #b2b2b2;
+}
+
+.dont {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 80px;
+}
+
+.dont img {
+    width: 100%;
+}
+
+.dont p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.bfeatured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.bfeatured h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.bfeatured button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.bfeatured button:hover {
+    background-color: #b2b2b2;
+}
+
+.featured {
+    margin-top: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.para {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.featured img {
+    width: 100%;
+}
+
+.featured {
+    margin-top: 30px;
+}
+
+.featext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featext h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.featext p {
+    margin-top: 20px;
+}
+
+.featured button,
+.justin button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.featured button:hover {
+    background-color: #b2b2b2;
+}
+
+.justin {
+    margin-top: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.justin img {
+    width: 100%;
+}
+
+.justin p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.niceday {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 100px;
+}
+
+.shoes {
+    display: flex;
+}
+
+.shoe1,
+.shoe2 {
+    margin-right: 10px;
+}
+
+.shoebottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.member {
+    color: #aa8375;
+}
+
+.morenike {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 100px;
+}
+
+.styles {
+    display: flex;
+}
+
+.style1,
+.style2 {
+    margin-right: 10px;
+}
+
+.style1,
+.style2,
+.style3 {
+    position: relative;
+}
+
+.styles button {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    margin-top: 20px;
+    padding: 8px 14px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+}
+
+.allpro {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.allpro a {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.b {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footertop {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footerleft {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footerleft .fcol1,
+.footerleft .fcol2,
+.footerleft .fcol3,
+.footerleft .fcol4 {
+    line-height: 30px;
+}
+
+.footerleft .fcol2 {
+    margin-left: 50px;
+}
+
+.fcol2,
+.fcol3 {
+    margin-left: 30px;
+    color: #7e7e7e;
+}
+
+.footerright i {
+    padding: 10px;
+}
+
+.footerbottom {
+    color: white;
+    display: flex;
+    padding: 0 100px 10px 100px;
+    font-size: 12px;
+    justify-content: space-between
+}
+
+.fbottomleft {
+    display: flex;
+}
+
+.fbottomleft p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fbottomright a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
